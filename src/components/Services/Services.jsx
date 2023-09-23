@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -27,12 +27,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          As a FullStack developer, I provide a holistic range of services,
           <br />
-          ispum is simpley dummy text of printing
+          seamlessly managing both front-end and back-end development, <br />
+          to craft efficient and feature-rich web applications.{" "}
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -47,7 +48,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma, Photoshop, Adobe Illustrator, Adobe xd"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +60,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={
+              "JavaScript, React, ReactNative, NextJs, Frappe , Nodejs, Express"
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -70,7 +73,7 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Software Enginer"}
             detail={
               "Lorem ispum dummy text are usually use in section where we need some random text"
             }

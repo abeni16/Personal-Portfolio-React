@@ -34,8 +34,8 @@
   margin-top: 10px;
 }
 .i-button {
-  width: 6rem;
-  height: 2rem;
+  width: 8rem;
+  height: 3rem;
 }
 .i-icons {
   margin-top: 3rem;
@@ -68,8 +68,9 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  transform: scale(1.2);
+  left: 20%;
+  top: -13%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -107,8 +108,8 @@
   .i-right .blur {
     display: none;
   }
-  .floating-div:nth-of-type(1){
+  .floating-div:nth-of-type(1) {
     /* display: none; */
-    top: -7rem !important;;
+    top: -7rem !important;
   }
 }

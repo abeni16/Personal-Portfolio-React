@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/css.png";
+import Fiverr from "../../img/react.png";
+import Amazon from "../../img/reactnative.png";
+import Shopify from "../../img/nextjs.png";
+import Facebook from "../../img/nodejs.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -20,19 +20,25 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
-          </span>
-          <span>Brands & Clients</span>
+          <span style={{ color: darkMode ? "white" : "" }}>About Myself</span>
+          <span>Education & Expriance</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I'm Abenezer, a dedicated software engineer who graduated in 2022{" "}
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            with a degree in software engineering. I began my journey as an{" "}
             <br />
-            y dummy text of printingLorem
+            intern at Topfony, where I gained valuable insights into the world{" "}
             <br />
-            ispum is simpley dummy text of printing
+            of web development. Following my internship, I transitioned into the{" "}
+            <br />
+            role of a full-stack developer at Kentechno Tech Solutions, where I{" "}
+            <br />
+            honed my skills in various technologies, including React, Next.js,{" "}
+            <br />
+            React Native, Node.js, and more. My passion for creating innovative{" "}
+            <br />
+            solutions and my diverse experience make me a versatile and <br />
+            enthusiastic contributor to any software development team. <br />
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +60,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img className="lg-img" src={Upwork} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img className="lg-img" src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img className="lg-img" src={Shopify} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img className="lg-img" src={Amazon} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img className="lg-img" src={Facebook} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

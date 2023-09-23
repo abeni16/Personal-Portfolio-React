@@ -27,11 +27,12 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
+          <span>Abenezer Asefa</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            FullStack Web and Mobile app Developer with high level of experience
+            in web and mobile app designing and development, producting the
+            Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -64,7 +65,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Full Stack" text2=" Developer" />
         </motion.div>
 
         {/* animation */}
@@ -75,7 +76,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="UI UX " text2="Designer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -59,6 +59,11 @@
   top: -3rem;
   left: 6rem;
 }
+.lg-img {
+  height: 8rem;
+  width: 8rem;
+  aspect-ratio: 1/1;
+}
 .w-mainCircle > :nth-child(2) {
   left: -3rem;
   top: 5rem;
@@ -67,6 +72,7 @@
   left: 6rem;
   top: 5rem;
 }
+
 .w-mainCircle > :nth-child(4) {
   left: 15rem;
   top: 5rem;
@@ -123,14 +129,13 @@
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content: start;
     transform: scale(0.7);
   }
-  .w-mainCircle{
+  .w-mainCircle {
     position: static;
   }
-  .w-backCircle{
-    left: 8rem!important;
+  .w-backCircle {
+    left: 8rem !important;
   }
-
 }
